@@ -18,7 +18,7 @@ const Skills = () => {
     <section id="skills" className="section-padding bg-gray-50">
       <div className="container-padding mx-auto">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
             Skills
           </h2>
           <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">

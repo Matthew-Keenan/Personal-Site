@@ -26,13 +26,13 @@ const Experience = () => {
     <section id="experience" className="section-padding bg-white">
       <div className="container-padding mx-auto">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
             Experience
           </h2>
           <div className="space-y-8">
             {experiences.map((exp) => (
               <div key={exp.company} className="bg-gray-50 p-6 rounded-lg shadow">
-                <h3 className="text-xl font-semibold text-primary-700">{exp.role}</h3>
+                <h3 className="text-xl font-semibold text-black">{exp.role}</h3>
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-gray-800">{exp.company}</span>
                   <span className="text-gray-500 text-sm">{exp.period}</span>

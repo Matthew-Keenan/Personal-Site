@@ -19,7 +19,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-200">
       <div className="container-padding mx-auto">
         <div className="flex justify-between items-center h-16">
-          <div className="text-xl font-bold text-primary-600">Matt</div>
+          <div className="text-xl font-bold text-black">Matt</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
@@ -27,7 +27,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-primary-600 transition-colors duration-200"
+                className="text-gray-700 hover:text-black transition-colors duration-200"
               >
                 {item.name}
               </a>
@@ -38,7 +38,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-primary-600"
+              className="text-gray-700 hover:text-black"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -53,7 +53,7 @@ const Navigation = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors duration-200"
+                  className="block px-3 py-2 text-gray-700 hover:text-black transition-colors duration-200"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}

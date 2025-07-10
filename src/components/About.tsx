@@ -3,13 +3,13 @@ const About = () => {
       <section id="about" className="section-padding bg-white">
         <div className="container-padding mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
               About Me
             </h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-semibold mb-6 text-gray-900">
+                <h3 className="text-2xl font-semibold mb-6 text-black">
                   Who I Am
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -30,19 +30,19 @@ const About = () => {
               
               <div className="space-y-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-lg mb-3 text-gray-900">Education</h4>
+                  <h4 className="font-semibold text-lg mb-3 text-black">Education</h4>
                   <p className="text-gray-600">Bachelor's in Computer Science</p>
                   <p className="text-sm text-gray-500">University of Technology</p>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-lg mb-3 text-gray-900">Location</h4>
+                  <h4 className="font-semibold text-lg mb-3 text-black">Location</h4>
                   <p className="text-gray-600">San Francisco, CA</p>
                   <p className="text-sm text-gray-500">Open to remote opportunities</p>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-lg mb-3 text-gray-900">Interests</h4>
+                  <h4 className="font-semibold text-lg mb-3 text-black">Interests</h4>
                   <p className="text-gray-600">Open Source, AI/ML, Web3, Clean Code</p>
                   <p className="text-sm text-gray-500">Always learning new technologies</p>
                 </div>
