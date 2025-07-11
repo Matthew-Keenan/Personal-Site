@@ -1,18 +1,8 @@
 const projects = [
   {
-    name: 'Personal Portfolio',
-    description: 'A modern, responsive portfolio website built with Next.js and Tailwind CSS.',
-    link: 'https://github.com/yourusername/portfolio',
-  },
-  {
-    name: 'Task Manager App',
-    description: 'A full-stack task management app with authentication and real-time updates.',
-    link: 'https://github.com/yourusername/task-manager',
-  },
-  {
-    name: 'E-commerce Store',
-    description: 'A scalable e-commerce platform with Stripe integration and admin dashboard.',
-    link: 'https://github.com/yourusername/ecommerce-store',
+    name: 'Personal Portfolio (This Site)',
+    description: 'A modern, professional, website built with Next.js and Tailwind CSS. I’m using tools like Cursor and Claude to deepen my understanding of AI-assisted development and to thoughtfully explore new technology as part of my learning process.',
+    link: 'https://github.com/Matthew-Keenan/portfolio',
   },
 ]
 

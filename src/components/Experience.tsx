@@ -1,24 +1,51 @@
 const experiences = [
   {
-    company: 'Tech Solutions Inc.',
-    role: 'Frontend Developer',
-    period: '2022 - Present',
+    company: 'Fidelity Investments',
+    role: 'Software Engineer',
+    period: 'June 2025 - Present',
+    description: [],
+  },
+  {
+    company: 'Fidelity Investments',
+    role: 'Associate Software Engineer',
+    period: 'Oct 2023 - Jun 2025',
     description: [
-      'Developed and maintained scalable web applications using React and Next.js.',
-      'Collaborated with designers to create responsive, user-friendly interfaces.',
-      'Optimized application performance and accessibility.',
+      'Contributed to the full rewrite of a core UI application from the ground up using Angular + Node.js, resulting in a 689% increase in internal usage and enabling $3.5 billion in customer account funding within the first 3 months',
+      'Participated in discussions of re-implementing features of team\’s legacy application in a modern tech stack while also assisting in defining the approach for new UI elements and functionality',
+      'Supported migration of existing application to updated UI design system, maintaining core functionality while enhancing UI to match new design specifications',
+      'Utilized a wide set of development tools and practices, such as Git/GitHub version control, Jenkins CI/CD, GraphQL data querying, Jest unit testing, and Agile development'
     ],
   },
   {
-    company: 'Innovatech Labs',
-    role: 'Full Stack Developer',
-    period: '2020 - 2022',
+    company: 'Fidelity Investments',
+    role: 'Associate Software Engineer - LEAP',
+    period: 'June 2023 - Oct 2023',
     description: [
-      'Built RESTful APIs with Node.js and Express.',
-      'Integrated third-party services and APIs.',
-      'Worked closely with cross-functional teams to deliver projects on time.',
+      'Completed an 18-week front-end development program, focusing on building modern Angular applications using TypeScript and emphasizing real-world development practices, such as Test Driven Development (TDD)',
+      'Collaborated with partners to deliver a full Angular application over a 6-week project phase, contributing to product ideation, feature planning, development, and final stakeholder presentation',
+      'Built responsive, accessible UIs using HTML, CSS, and JavaScript in hands-on projects, prioritizing user experience best practices',
     ],
   },
+  {
+    company: 'Fidelity Investments',
+    role: 'Full Stack Developer Intern',
+    period: 'June 2022 - August 2022',
+    description: [
+      'Streamlined third-party API usage in response to updated business requirements, reducing unnecessary requests and contributing to cost savings per call',
+      'Improved a Python-based data pipeline by enhancing JSON parsing capabilities, enabling further analytics and more informed internal decision making',
+      'Contributed to Agile ceremonies, including sprint planning and backlog refinement, to help improve task prioritization and team productivity'
+    ],
+  },
+  {
+    company: 'PTC',
+    role: 'Backend Java Developer Intern',
+    period: 'June 2021 - August 2021',
+    description: [
+      'Implemented feature enhancements and bug fixes for a Java-based application',
+      'Ensured code reliability through various testing methods, including JUnit unit tests, custom workflows, and manual QA in a local dev environment',
+      'Gained practical experience in the full software development lifecycle, working in a large-scale, production codebase with true customer impact',
+    ],
+  }
 ]
 
 const Experience = () => {

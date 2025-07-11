@@ -19,7 +19,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-200">
       <div className="container-padding mx-auto">
         <div className="flex justify-between items-center h-16">
-          <div className="text-xl font-bold text-black">Matt</div>
+          <div className="text-xl font-bold text-black">Matt Keenan</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
