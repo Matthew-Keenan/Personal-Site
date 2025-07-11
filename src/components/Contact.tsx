@@ -7,10 +7,10 @@ const Contact = () => {
             Contact
           </h2>
           <p className="text-gray-700 mb-8">
-            Interested in working together or have any questions? Feel free to reach out!
+            Feel free to reach out with any questions or opportunities!
           </p>
           <a
-            href="mailto:matt@example.com"
+            href="mailto:matthewk1313@gmail.com"
             className="inline-block bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200"
           >
             Email Me

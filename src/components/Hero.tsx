@@ -9,11 +9,10 @@ const Hero = () => {
             Hi, I'm <span className="text-gray-800">Matt</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-8">
-            Software Developer & Problem Solver
+            Software Engineer & Problem Solver
           </h2>
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
-            I build elegant, scalable solutions that make a difference. 
-            Passionate about clean code, user experience, and continuous learning.
+            I am a product-minded software engineer who is passionate about providing meaningful solutions and a positive user experience. 
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -21,7 +20,7 @@ const Hero = () => {
               href="#contact"
               className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200"
             >
-              Get In Touch
+              Contact Me
             </a>
             <a
               href="#projects"
@@ -33,7 +32,7 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6 mb-8">
             <a
-              href="https://github.com"
+              href="https://github.com/Matthew-Keenan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-black transition-colors duration-200"
@@ -41,7 +40,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/matthew-keenan/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-black transition-colors duration-200"
@@ -49,7 +48,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:matt@example.com"
+              href="mailto:matthewk1313@gmail.com"
               className="text-gray-500 hover:text-black transition-colors duration-200"
             >
               <Mail size={24} />
