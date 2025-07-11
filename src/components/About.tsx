@@ -25,7 +25,7 @@ const About = () => {
                 but I also like stepping back to see the bigger picture and help shape the “why” behind the work.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Outside of work, I enjoy spending time with friends and family, traveling, and following Boston sports
+                  Outside of work, I enjoy spending time with friends and family, traveling, and following Boston sports.
                 </p>
               </div>
               
