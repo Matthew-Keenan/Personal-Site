@@ -3,27 +3,20 @@ const experiences = [
     company: 'Fidelity Investments',
     role: 'Software Engineer',
     period: 'June 2025 - Present',
-    description: [],
-  },
-  {
-    company: 'Fidelity Investments',
-    role: 'Associate Software Engineer',
-    period: 'Oct 2023 - Jun 2025',
     description: [
-      'Contributed to the full rewrite of a core UI application from the ground up using Angular + Node.js, resulting in a 689% increase in internal usage and enabling $3.5 billion in customer account funding within the first 3 months',
-      'Participated in discussions of re-implementing features of team\’s legacy application in a modern tech stack while also assisting in defining the approach for new UI elements and functionality',
-      'Supported migration of existing application to updated UI design system, maintaining core functionality while enhancing UI to match new design specifications',
-      'Utilized a wide set of development tools and practices, such as Git/GitHub version control, Jenkins CI/CD, GraphQL data querying, Jest unit testing, and Agile development'
+      'Promoted from Associate Software Engineer in recognition of technical contributions and accomplishments',
+      'Continuing to contribute to core functionality while taking on greater responsibility in planning and implementation'
     ],
   },
   {
     company: 'Fidelity Investments',
-    role: 'Associate Software Engineer - LEAP',
-    period: 'June 2023 - Oct 2023',
+    role: 'Associate Software Engineer',
+    period: 'June 2023 - Jun 2025',
     description: [
-      'Completed an 18-week front-end development program, focusing on building modern Angular applications using TypeScript and emphasizing real-world development practices, such as Test Driven Development (TDD)',
-      'Collaborated with partners to deliver a full Angular application over a 6-week project phase, contributing to product ideation, feature planning, development, and final stakeholder presentation',
-      'Built responsive, accessible UIs using HTML, CSS, and JavaScript in hands-on projects, prioritizing user experience best practices',
+      'Contributed to the full rewrite of a core UI application from the ground up using Angular + Node.js, resulting in a 689% increase in internal usage and enabling $3.5 billion in customer account funding within the first 3 months',
+      'Participated in discussions of re-implementing features of team\’s legacy application in a modern tech stack while also assisting in defining the approach for new UI elements and functionality',
+      'Supported migration of existing application to updated UI design system, maintaining core functionality while enhancing UI to match new design specifications',
+      'Completed an 18-week front-end development program focused on building modern Angular applications with TypeScript and emphasizing real-world development practices, prior to transitioning to a full-time product team'
     ],
   },
   {
