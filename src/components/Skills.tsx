@@ -1,14 +1,16 @@
 const skills = [
+  'Angular',
   'JavaScript',
   'TypeScript',
-  'Angular',
-  'Next.js',
+  'HTML',
+  'CSS',
+  'Agile',
   'Node.js',
   'Nest.js',
+  'GraphQL',
+  'Next.js',
   'Tailwind CSS',
   'Git & GitHub',
-  'REST APIs',
-  'GraphQL',
 ]
 
 const Skills = () => {
