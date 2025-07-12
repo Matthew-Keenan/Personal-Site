@@ -28,6 +28,13 @@ const Hero = () => {
             >
               View My Work
             </a>
+            <a
+              href="/Matthew_Keenan_Resume.pdf"
+              download="Matthew_Keenan_Resume.pdf"
+              className="border border-black text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
+            >
+              Download Resume
+            </a>
           </div>
 
           <div className="flex justify-center space-x-6 mb-8">
