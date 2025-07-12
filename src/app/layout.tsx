@@ -22,6 +22,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-gray-50 text-gray-900`}>
         {children}
+        <Analytics/>
       </body>
     </html>
   )
