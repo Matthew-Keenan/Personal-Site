@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
 
           <div className="animate-bounce">
-            <a href="#about">
+            <a href="#about" onClick={e => { handleNavigationClick(e, "#about")}}>
               <ArrowDown size={24} className="text-black mx-auto" />
             </a>
           </div>
