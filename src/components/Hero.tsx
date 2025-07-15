@@ -1,6 +1,18 @@
+'use client'
+
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
 
 const Hero = () => {
+
+  function handleNavigationClick(e: React.MouseEvent<HTMLAnchorElement>, section: string){
+    e.preventDefault();
+    const id = section.replace('#', '');
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 to-white">
       <div className="container-padding mx-auto text-center">
@@ -18,12 +30,14 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
               href="#contact"
+              onClick={e => { handleNavigationClick(e, "#contact")}}
               className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200"
             >
               Contact Me
             </a>
             <a
               href="#projects"
+              onClick={e => { handleNavigationClick(e, "#projects")}}
               className="border border-black text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
             >
               View My Work
