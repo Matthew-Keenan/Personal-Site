@@ -15,6 +15,15 @@ const Navigation = () => {
     { name: 'Contact', href: '#contact' },
   ]
 
+  function handleNavigationClick(e: React.MouseEvent<HTMLAnchorElement>, section: string){
+    e.preventDefault();
+    const id = section.replace('#', '');
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-200">
       <div className="container-padding mx-auto">
@@ -27,6 +36,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
+                onClick={e => { handleNavigationClick(e, item.href)}}
                 className="text-gray-700 hover:text-black transition-colors duration-200"
               >
                 {item.name}
@@ -54,7 +64,7 @@ const Navigation = () => {
                   key={item.name}
                   href={item.href}
                   className="block px-3 py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                  onClick={() => setIsOpen(false)}
+                  onClick={e => { handleNavigationClick(e, item.href); setIsOpen(false) }}
                 >
                   {item.name}
                 </a>
