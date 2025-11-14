@@ -4,8 +4,9 @@ const experiences = [
     role: 'Software Engineer',
     period: 'June 2025 - Present',
     description: [
-      'Promoted from Associate Software Engineer in recognition of technical contributions and accomplishments',
-      'Continuing to contribute to core functionality while taking on greater responsibility in planning and implementation'
+      'Refactored Angular / Node.js applications to migrate from GraphQL resolvers to REST based controllers, leveraging GitHub Copilot to accelerate development',
+      'Support new team members during onboarding, helping gain proficiency with the team\’s codebase and development practices',
+      'Contribute to core functionality, taking on greater responsibility in planning and implementation'
     ],
   },
   {
